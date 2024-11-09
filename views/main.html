@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catsenni</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="https://kit.fontawesome.com/fa685cc29d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="grid-container">
+            <div class=" box nav">
+                <div class="logo">Catsenni</div>
+            </div>
+            <div class="box description">
+                <div class="text">
+                    <span class="s-top">Hey, I am Martyna Kolaska, but you can call me Catsenni</span>
+                    I'm a beginner <span>web developer</span> and <span>UI/UX designer</span>. I'm passionate about
+                    creating beautiful and functional websites, focusing on details that enhance the user experience. I
+                    combine creativity with technical skills to bring ideas to life through engaging online projects.
+                    I’m constantly learning and growing, and I treat every new challenge as an opportunity to refine my
+                    craft.
+                </div>
+            </div>
+            <img src="images/img_1.png" width="100%"">
+            <div class=" box portfolio">
+            <div class=" top">
+                <div class="text">Projects</div>
+                <!-- <a href="/work"> -->
+                <button id="prj-btn">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </button>
+                <!-- </a> -->
+            </div>
+            <div class="image-container">
+
+            </div>
+            <div class="image-description">
+                Still in progress...
+            </div>
+        </div>
+        <div class="box about">
+            <div class="top">
+                <div class="q-about">More about me...</div>
+                <button id="abt-btn">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </button>
+            </div>
+            <div id="modal-ip" class="modal">
+                <div class="ip-modal-content">
+                    <span id="ip-close">&times;</span>
+                    <p>
+                        <i class="fa-solid fa-exclamation-circle"></i>
+                        Still in progress...
+                    </p>
+                </div>
+            </div>
+            <div class="text">About me</div>
+
+        </div>
+        <div class="box contact">
+            <div class=" top">
+                <div class="q-contact">Do you have any questions?</div>
+                <button id="cnt-btn">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </button>
+            </div>
+
+            <div id="modal-ctn" class="modal">
+                <div class="ctn-modal-content">
+                    <span id="cnt-close">&times;</span>
+                    <p>
+                        <i class="fa-regular fa-envelope"></i>
+                        Contact via mail m.kolaska04@gmail.com
+                        <button onclick="Copy(this,'m.kolaska04@gmail.com')">
+                            Copy
+                            <i class="fa-regular fa-copy"></i>
+                        </button>
+                    </p>
+                    <p>
+                        <i class="fa-brands fa-discord"></i>
+                        Contact via discord tusenkaaa
+                        <button onclick="Copy(this,'tusenkaaa')">
+                            Copy
+                            <i class="fa-regular fa-copy"></i>
+                        </button>
+                    </p>
+                    <p>
+                        <i class="fa-brands fa-linkedin"></i>
+                        Contact via linkedin
+                        <a href="https://www.linkedin.com/in/martyna-kolaska-7140572b3/">
+                            mkolaska04
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="text">Contact me</div>
+        </div>
+        <div class="box socials">
+            <a href="https://github.com/mkolaska04"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/martyna-kolaska-7140572b3/"><i class="fa-brands fa-linkedin"></i></a>
+            <button onclick="Copy(this,'tusenkaaa')">
+                <i class="fa-brands fa-discord"></i>
+            </button>
+        </div>
+    </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
